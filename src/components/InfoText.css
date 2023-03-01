@@ -1,0 +1,33 @@
+.container-text {
+    padding: 4rem;
+    background: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text-info {
+    padding: 4rem;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.text-card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .container-text {
+        padding: 0;
+    }
+
+    .text-card {
+        padding: 0;
+    }
+}
